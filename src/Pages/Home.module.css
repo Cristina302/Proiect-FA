@@ -1,0 +1,127 @@
+*::-webkit-scrollbar{
+    height: .5rem;
+    width:1rem;
+}
+
+*::-webkit-scrollbar-thumb{
+    background-color:rgb(165, 214, 209);
+}
+ 
+section{
+    margin: 0 auto;
+    padding: 2rem;
+}
+
+.heading{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 7rem;
+    color: rgb(165, 214, 209);
+    text-transform: uppercase;
+    text-align: center;
+    margin-bottom: 4rem;
+    padding-top: 5rem;
+}
+
+*{
+    margin: 0; padding: 0;
+    box-sizing: border-box;
+    outline: none; border: none;
+    text-decoration: none;
+    scrollbar-color: rgb(165, 214, 209);
+    scrollbar-width: thin;
+    overflow-x: hidden;
+    font-size: 67.5%;
+ }
+
+.acasa_section{
+    background: url('C:\Users\crist\OneDrive\Desktop\pr\proiect-fe\src\bk.webp') no-repeat rgba(40,40,40,.6) ;
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    background-blend-mode: multiply;
+}
+
+.acasa {
+    height: 120vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    /*background-color: black;*/
+    /*overflow-x: hidden;*/
+}
+
+.acasa h1 {
+    font-size: 5rem;
+    color: white;
+    text-transform: capitalize;
+}
+
+.acasa span {
+    font-size: 5rem;
+    color: rgb(228, 151, 8);
+}
+
+.acasa_section .detalii {
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 2rem;
+    min-height: 60vh;
+    border-radius: .5rem;
+}
+
+.acasa_section .detalii .boxx {
+    width: 80rem;
+    background-color: black;
+    background-position: center;
+    padding: 3rem 2rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.acasa_section .detalii .boxx h3 {
+    padding-bottom: 1rem;
+    font-size: 2.5rem;
+    color: white;
+}
+
+.acasa_section .detalii .boxx li {
+    align-items: center;
+    padding: 1rem 0;
+    font-size: 1.5rem;
+    color: white;
+    line-height: 2;
+}
+
+.acasa_section .rec {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, 35rem);
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.acasa_section .box2 {
+    background-color: black;
+    padding: 2rem;
+    text-align: center;
+    border-radius: .5rem;
+}
+
+.acasa_section .recenzii .box2 h3 {
+    font-size: 2rem;
+    color: white;
+}
+
+.acasa_section .recenzii .box2 p {
+    padding: 1rem 0;
+    line-height: 2;
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+}

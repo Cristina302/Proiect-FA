@@ -1,0 +1,41 @@
+.header1{
+    /*position: fixed;*/
+    top: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(0deg, transparent, #000);
+    z-index: 1000;
+}
+.header1 .flex{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+ 
+.header1 .logo h3{
+    color: rgb(165, 214, 209);
+    font-family: 'Cinzel', serif;
+    font-weight: 250;
+    font-size: 30px;
+    line-height:1.2;
+}
+
+.header1 .logo h3 span {
+    background: rgb(165, 214, 209);
+    color: #fff;
+    display: inline-block;
+    align-items: center;
+    line-height: 1.8;
+    padding: 0 16px;
+}
+ 
+.header1 .flex .navlink{
+    margin-left: 5rem;
+    font-size: 2rem;
+    color: rgba(255, 255, 255, 0.5);
+}
+ 
+.header1 .flex .navbar .navlink:hover{
+    color: rgb(165, 214, 209);
+}

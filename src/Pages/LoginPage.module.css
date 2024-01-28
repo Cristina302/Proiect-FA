@@ -1,0 +1,9 @@
+.loginPageContainer {
+    background: url('C:\Users\crist\OneDrive\Desktop\pr\proiect-fe\src\bk.webp') no-repeat center center fixed;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-blend-mode: multiply;
+}
